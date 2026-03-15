@@ -1,0 +1,14 @@
+[project]
+name = "facerec"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "numpy>=2.4.3",
+    "opencv-python>=4.13.0.92",
+    "pymongo>=4.16.0",
+    "python-multipart>=0.0.22",
+    "uvicorn>=0.41.0",
+]
